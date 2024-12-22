@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(135deg, #74ebd5, #acb6e5); */
+    /* background: linear-gradient(135deg, #fae37e, #c8a4f1); */
+    background: linear-gradient(135deg, #ecbe89, #ac91ca);
+    /* background: linear-gradient(135deg, #eda553, #9f5bed); */
+    font-family: Arial, sans-serif;
+  }
+
+  .hello {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    animation: fadeBounce 3s infinite;
+  }
+
+  @keyframes fadeBounce {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+      color: #ff6b6b;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+      /* color: #ffe66d; */
+      color: #4524ff;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-50px);
+      color: #4ecdc4;
+    }
+  }
